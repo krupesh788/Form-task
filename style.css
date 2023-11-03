@@ -1,0 +1,139 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(71, 54, 88);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+div{
+
+    display: block;
+    padding: 10px;
+}
+input[type=text]{
+
+    padding: 8px;
+    background-color: #16644d;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+select {
+
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e02c2c;
+    font-weight: 400;
+    font-size: 18px;
+}
+input[type=radio]{
+
+    
+    background-color: blueviolet;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+input[type=email]{
+
+    padding: 12px;
+    background-color: yellowgreen;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+input[type=tel]{
+
+    padding: 12px;
+    background-color: crimson;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+input[type=range]{
+
+    padding: 5px;
+    background-color: wheat;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+input::placeholder{
+
+    font-weight:bolder;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+
+    background-color: #04AA6D;
+    border: 3px solid burlywood;
+    border-radius: 15px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+
+/* .p1{
+    padding: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    
+
+
+}
+.p2{
+
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.p3{
+
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bolder;
+} */
+/* .submit{
+       padding: 10px;
+    background-color: brown;
+    border: 2px solid red;
+    border-radius: 15px;
+}
+.reset{
+
+    padding: 10px;
+    background-color: crimson;
+    border: 5px solid blue;
+    border-radius: 15px;
+}
+.btn{
+
+    padding: 10px;
+    border: 2px solid violet;
+    background-color: chocolate;
+    border-radius: 15px;
+} */
